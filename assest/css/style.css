@@ -1,0 +1,526 @@
+:root {
+    
+    --main-color: #2D3E50;    /* var(--main-color)   */
+    --second-color: #F20900; /* var(--second-color) */
+}
+
+body {
+    
+    font-family: 'Cairo', sans-serif;
+}
+
+/* Start Header */
+
+.header {
+    
+    background: url("../imgs/bg.png") no-repeat center center;
+    height: 800px;
+    background-size: cover
+}
+
+.header .ads {
+    
+    padding: 25px 40px
+}
+
+.header .ads i {
+    
+    cursor: pointer;
+    color: #FFF;
+}
+
+.header .ads a.btn {
+    
+    color: #CD4A60;
+    background-color: #FFF;
+    padding: 5px 25px;
+    margin-right: 20px;
+    margin-top: -13px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+   
+}
+
+.header .brand {
+    
+    text-align: center;
+    margin-top: 227px;
+    color: #FFF;
+    
+}
+
+.header .brand h1 {
+    
+    font-size: 70px;
+    font-weight: bold   
+}
+.header .brand i {
+    
+    background-color: none
+}
+
+.header .search {
+    
+    margin: 270px auto 0;
+    width: 80%;
+    background: url("../imgs/Rectangle%2051.png");
+    padding: 35px 0;
+    border-radius: 8px;
+    box-shadow: 2px 9px 5px 3px #EEE
+}
+
+.header .search input, 
+.header .search select
+ {
+    
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+.header .search input[type="search"], 
+.header .search select {
+    
+    width: 38%;
+    padding: 10px 30px;
+    margin: 0 1%;
+    border: 1px solid #fff;
+    height: 60px;
+    outline: none
+}
+
+.header .search select {
+    
+    color: #757575
+}
+
+.header .search input[type="submit"] {
+    
+    background-color: #FFF;
+    border: 1px solid #FFF;
+    padding: 15px 0;
+    margin: 0 2%;
+    cursor: pointer;
+    width: 14%
+}
+
+@media (max-width:767px) {
+    
+    .header {
+        
+        height: 500px
+    }
+    
+    .header .brand {
+        
+        margin-top: 57px
+    }
+   
+}
+
+/* End Header */
+
+/* Start Section Search */
+
+.search form {
+    
+    margin: -65px auto 30px;
+    width: 85%;
+    background-image: linear-gradient(#F8885D, #CD4A5F);
+    padding: 35px 0;
+    border-radius: 8px;
+    box-shadow: 2px 9px 5px 3px #EEE
+}
+
+ .search form input, 
+ .search form select
+ {
+    
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+ .search form input[type="search"], 
+ .search form select {
+    
+    width: 38%;
+    padding: 10px 30px;
+    margin: 0 1%;
+    border: 1px solid #fff;
+    height: 60px;
+    outline: none
+}
+
+.search form select {
+    
+    color: #757575
+}
+
+.search form input[type="submit"] {
+    
+    background-color: #FFF;
+    border: 1px solid #FFF;
+    padding: 15px 0;
+    margin: 0 2%;
+    cursor: pointer;
+    width: 14%
+}
+
+.search .search-icons ul li {
+    
+    display: inline-block;
+    margin-left: 25px;
+    margin-top: 50px;
+}
+
+.search .search-icons ul li span {
+    
+    display: block;
+    text-align: center;
+    height: 130px;
+    width: 130px;
+    line-height: 130px;
+    border-radius: 50%;
+    color: #FFF;
+    margin: 0 auto 15px;
+    font-size: 39px;
+}
+
+.search .search-icons select {
+    
+    width: 155px;
+    background-color: #333;
+    color: #FFF;
+    font-size: 13px;
+    border-radius: 8px;
+    padding: 3px 0
+    
+}
+
+
+
+.search .search-icons ul .item:first-of-type span {
+    
+    background-image: linear-gradient(#5b360d, #FA835C);
+}
+
+.search .search-icons ul .item:nth-of-type(2) span {
+    
+    background-image: linear-gradient(#9B4453, #402a11);
+}
+
+.search .search-icons ul .item:nth-of-type(3) span {
+    
+    background-image: linear-gradient(#B36D52, #402a11);
+}
+
+.search .search-icons ul .item:nth-of-type(4) span {
+    
+    background-image: linear-gradient(#72a6ff, #0cb9bd);
+} 
+
+.search .search-icons ul .item:nth-of-type(5) span {
+    
+    background-image: linear-gradient(#CD4A5F, #F8885D);
+}
+
+.search .search-icons ul .item:nth-of-type(6) span {
+    
+    background-image: linear-gradient(#9e0059, #772e25);
+}
+
+@media (max-width:767px) {
+    
+    
+    .search form input[type="search"], 
+    .search form select {
+        
+        width: 80%;
+        margin: 10px auto 20px;
+        display: block
+    }
+    
+    .search form input[type="submit"] {
+        
+        margin: 0 auto;
+        display: block;
+        width: 25%
+    }
+    
+    .search form {
+        
+        margin-top: 0;
+        width: 100%;
+        border-radius: 0
+    }
+    
+    .search .search-icons ul .item {
+        
+        padding-right: 40px
+    }
+}
+
+@media (max-width:991px) {
+    
+    .search form input[type="search"], 
+    .search form select {
+        
+        padding-left: 5px
+    }
+}
+
+
+/* End Section Search */
+
+/* Start New-Ads */
+
+.new-ads {
+    
+    padding: 50px 20px
+}
+
+.new-ads h2 {
+    
+    color: #e16435;
+    border-right: 5px solid #FA835C;
+    padding: 7px;
+    margin-bottom: 35px;
+    font-weight: bold;
+}
+
+.new-ads .item {
+    
+    border-radius: 10px;
+    margin-bottom: 40px;
+    box-shadow: 2px 1px 6px 6px #DDD
+   
+}
+
+.new-ads .card-body {
+    
+    background-color: #F5F5F5;
+    border-radius: 0 0 20px 20px;
+    padding-bottom: 30px   
+}
+
+.new-ads .card-body h3 {
+    
+    color: #4f4747;
+    font-size: 30px
+}
+
+.new-ads .card-body p {
+    
+    font-size: 22px
+}
+
+.new-ads .card-body i {
+    
+    color: #e16435;
+    font-size: 32px;
+    margin-left: 15px
+}
+
+.new-ads a.btn {
+    
+    background-image: linear-gradient(#CD4A5F, #F8885D);
+    padding: 15px 120px;
+    color: #FFF;
+    font-size: 22px;
+    border-radius: 40px;
+    margin-top: 20px
+}
+
+/* End New-Ads */
+
+/* Start Section Subscribe */
+
+.subscribe {
+    
+    background: url('../imgs/Rectangle%209.png');
+    padding: 50px 0
+}
+
+.subscribe h2 {
+    
+    color: #FFF;
+    font-weight: 800;
+    font-size: 35px;
+    margin-bottom: 70px
+}
+
+.subscribe input[type="text"] {
+    
+    display: block;
+    width: 60%;
+    margin: 0 auto;
+    border: 1px solid #FFF;
+    padding: 25px 35px;
+    border-radius: 40px;
+    font-size: 20px;
+    outline: none
+}
+
+.subscribe ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #8d8a8a;
+    opacity: .7;
+    font-weight: 600
+}
+
+.subscribe input[type="submit"] {
+    
+    color: #FE8F64;
+    background: #FFF;
+    padding: 15px 90px;
+    border-radius: 40px;
+    border: 1px solid #FFF;
+    margin-top: 50px;
+    font-size: 21px;
+    font-weight: 550;
+    cursor: pointer
+}
+
+@media (max-width:767px) {
+    
+    .subscribe input[type="text"] {
+        
+        width: 90%;
+        padding: 15px 35px
+    }
+}
+
+@media (min-width:768px) and (max-width:991px) {
+    
+    .subscribe input[type="text"] {
+        
+        width: 90% !important;
+        padding: 20px 35px
+    }
+}
+/* End Section Subscribe */
+
+/* Start Footer */
+
+.footer {
+    
+    background: url('../imgs/Rectangle%2012.png');
+    color: #FFF;
+    padding: 30px 0
+}
+
+.footer .brand h2 {
+    
+    font-size: 55px;
+    font-weight: bold   
+}
+
+.footer .foot-desc p {
+    
+    line-height: 1.5;
+    font-size: 18px;
+    margin: 20px 8px 60px 0;
+    opacity: .9
+}
+
+.footer .foot-links li {
+    
+    margin-bottom: 12px
+}
+
+.footer .foot-links li a {
+    
+    font-size: 21px;
+    font-weight: 400;
+    color: #FFF;
+    text-decoration: none
+}
+
+.footer .foot-media li a {
+    
+    color: #FFF;
+    margin-left: 20px;
+    font-size: 19px
+}
+
+.footer .foot-app {
+    
+    padding-right: 60px
+}
+
+.footer .foot-app p {
+    
+    line-height: 2;
+    font-size: 23px;
+    width: 85%;
+    margin-bottom: 30px;
+}
+
+.footer .foot-app a.btn {
+    
+    padding: 15px 20px;
+    border-radius: 40px;
+    border: 1px solid #FFF;
+    margin-top: 10px;
+    font-size: 21px;
+    font-weight: 550;
+    cursor: pointer;
+    background: #FFF;
+    color: #CF455C;
+}
+
+.footer .foot-app a.btn i {
+    
+    color: #FE8F64;
+    font-size: 33px
+}
+
+@media (min-width:768px) and (max-width:991px) {
+    
+    .footer .foot-desc {
+        
+        margin-bottom: 80px
+    }
+    
+    .footer .foot-desc p {
+        
+        width: 75%;
+        margin: 20px auto;
+        line-height: 1.8;
+        text-align: center
+    }
+}
+
+@media (max-width:767px) {
+    
+    .footer .foot-desc p {
+        
+        width: 98%;
+        margin: 30px auto;
+        line-height: 1.8;
+        text-align: center
+    }
+    
+    .footer .foot-links {
+        
+        margin-bottom: 40px
+    }
+    
+    .footer .foot-media {
+        
+        margin-bottom: 40px
+    }
+    
+    .footer .foot-app a.btn {
+        
+        margin-left: 40px;
+        margin-bottom: 10px
+    }
+    
+    
+}
+/* End Footer */
